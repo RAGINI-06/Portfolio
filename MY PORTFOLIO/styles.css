@@ -1,0 +1,203 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(back.jpeg);
+    padding: 20px;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #ffffff;
+    margin-left: 300px;
+    max-width: 600px;
+    height: 100px;
+    display: flex;
+     align-items: center;
+ justify-content: center;
+      border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    gap: 10px;
+   background-image:url(tech.jpeg);
+    
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cae2e4;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chat-container-hover:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #5069c4;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+#h1-hover:hover {
+    color: #ad6de2;
+    text-decoration: wavy;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+#INTRO {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e5dfe7;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: #a3e5eb solid 2px;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #b8ddec;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.button{ background-color: #4538cf; /* Button color */
+  color: white;             /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0d0565; /* Hover effect */
+}
+
+
+
+.project-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    height: 80vh;
+    background-image: url('ee.jpeg');
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.chat-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    height: 60vh;
+     background-image: url('ee.jpeg');
+
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.skill-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    height: 80vh;
+     background-image: url('ee.jpeg');
+   
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+   margin-left: 900px;
+
+    margin-top: 100px;
+}
+
+ .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #281d9f;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0f0543;
+}
+
+.audio-player {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url(dolp.jpeg);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  margin: 50px auto;
+  margin-right:20px; 
+  margin-left: 1150px;
+}
+.footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
